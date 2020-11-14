@@ -1,0 +1,8 @@
+{
+  "guillotinaweb.volto-guillotina": {
+    "package": "@guillotinaweb/volto-guillotina",
+    "url": "git@github.com:guillotinaweb/volto-guillotina.git",
+    "path": "src",
+    "branch": "main"
+  }
+}

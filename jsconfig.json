@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "paths": {
+            "@guillotinaweb/volto-guillotina": [
+                "addons/guillotinaweb.volto-guillotina/src"
+            ]
         },
         "baseUrl": "src"
     }

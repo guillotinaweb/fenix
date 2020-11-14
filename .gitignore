@@ -10,6 +10,7 @@ junit.xml
 eslint.xml
 yarn-error.log
 build
+src/addons
 
 # Other
 .DS_Store
