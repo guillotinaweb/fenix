@@ -16,9 +16,13 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js"
   },
-  "private": false,
-  "workspaces": [],
-  "addons": [],
+  "private": true,
+  "workspaces": [
+    "src/addons/guillotinaweb.volto-guillotina"
+  ],
+  "addons": [
+    "@guillotinaweb/volto-guillotina"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
